@@ -11,25 +11,25 @@
    
 ## 2. Contents
    ### 2.1 example_SG.py
-   I reproduce the SG filter with Numba acceleration. It is very efficient when doing a lot of calculations. As we know, the first call to a Numba compiled function is time consuming. 
+   We reproduce the SG filter with Numba acceleration. It is very efficient when doing a lot of calculations. As we know, the first call to a Numba compiled function is time consuming. 
    
    ### 2.2 example_DTW.py
-   I reproduce the dynamic time warping with Numba acceleration.
+   We reproduce the dynamic time warping with Numba acceleration.
    
    ### 2.3 example_interpolation.py
-   I reproduce the linear interpolation with Numba acceleration.
+   We reproduce the linear interpolation with Numba acceleration.
    
    ### 2.4 example_parallel.py
-   I would like to briefly show here how to perform parallel computing by using joblib library, so that readers can better understand parallel in "DTW_classification.py".
+   We would like to briefly show here how to perform parallel computing by using joblib library, so that readers can better understand parallel in "DTW_classification.py".
    
    ### **2.5 DTW_classification.py** 
-   **I present here the main framework of DTW for long-term landcover classification in parallel computing.** Below I will point out a few points to note. (1) joblib is a lightweight parallel library for a single node(computer). If you want to do distributed parallel computing over a local area network, I would recommend you to use the dask library for distributed processing. (2) I give the main frame of DTW classification, which makes our code more extensible. I have reserved a lot of details for you to extend this framework. Especially for some complex landcover types, it needs to be classified by a specific index and/or a specific decision tree. (3) I strongly recommend users that when using DTW, the reference series must use periodic series, not those that are confusing.
+   **We present here the main framework of DTW for long-term landcover classification in parallel computing.** Below We will point out a few points to note. (1) joblib is a lightweight parallel library for a single node(computer). If you want to do distributed parallel computing over a local area network, We would recommend you to use the dask library for distributed processing. (2) We give the main frame of DTW classification, which makes our code more extensible. We have reserved a lot of details for you to extend this framework. Especially for some complex landcover types, it needs to be classified by a specific index and/or a specific decision tree. (3) We strongly recommend users that when using DTW, the reference series must use periodic series, not those that are confusing.
 
 ## 3. How to use "DTW_classification.py" ?
-   If you just want to run it, run it. But I think you probably need to extend it. **First, the correct image folder path should be filled in correctly. Then, I suggest adding a periodic index according to your own needs to deal with different landcover types. Finally, a decision tree should be built to improve the classification accuracy.**
+   If you just want to run it, run it. But I think you probably need to extend it. **First, the correct image folder path should be filled in correctly. Then, We suggest adding a periodic index according to your own needs to deal with different landcover types. Finally, a decision tree should be built to improve the classification accuracy.**
    
 ## 4. Outlooks
-   GPUs should be used, which may significantly improve computational efficiency. However, when I use the GPU for computing, I found that more time was spent in the communication of the video memory, which led to a decrease in computing efficiency. I hope this wheel can move forward, if anyone implements efficient GPU computing based on Python, please send me an email , I hope to be able to learn such techniques. Also, If you have anything you would like to discuss, please email me.
+   GPUs should be used, which may significantly improve computational efficiency. However, when We use the GPU for computing, I found that more time was spent in the communication of the video memory, which led to a decrease in computing efficiency. I hope this wheel can move forward, if anyone implements efficient GPU computing based on Python, please send me an email , I hope to be able to learn such techniques. Also, If you have anything you would like to discuss, please email me.
    
 ## PS: My environment
     Laptop configuration:
