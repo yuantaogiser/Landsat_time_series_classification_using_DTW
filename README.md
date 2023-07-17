@@ -43,3 +43,6 @@
     numba  : 0.55.1
     scipy  : 1.7.3
    
+## _Tao Y., Liu W., Chen J., et al. (2023) Mapping 30m China annual impervious surface from 1992 to 2021 via a multi-level classification approach. International Journal of Remote Sensing. 44(13):4086-4114. https://doi.org/10.1080/01431161.2023.2232541_
+
+## What is the flowchart?
