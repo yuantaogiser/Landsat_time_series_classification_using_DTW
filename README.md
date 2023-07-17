@@ -44,8 +44,8 @@
     scipy  : 1.7.3
 
 ## What is the flowchart?
-
+![image](https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/tres20/2023/tres20.v044.i13/01431161.2023.2232541/20230714/images/large/tres_a_2232541_f0002_c.jpeg)
 ### _Tao Y., Liu W., Chen J., et al. (2023) Mapping 30m China annual impervious surface from 1992 to 2021 via a multi-level classification approach. International Journal of Remote Sensing. 44(13):4086-4114. https://doi.org/10.1080/01431161.2023.2232541_
 
 
-https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/tres20/2023/tres20.v044.i13/01431161.2023.2232541/20230714/images/large/tres_a_2232541_f0002_c.jpeg
+
